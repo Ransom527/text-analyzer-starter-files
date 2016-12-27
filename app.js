@@ -73,7 +73,7 @@ function avgSentenceLength(text) {
 	var sentenceLengthVar = 0;
 	for (var i = 0; i < sentenceArray.length; i++) {
 		sentenceLengthVar += sentenceArray[i].trim().length;
-		//abbrevitated from x = x + y
+		//abbreviated from x = x + y
 	}
 	sentenceLengthVar = sentenceLengthVar / sentenceArray.length;
 	$('#avgSentenceLength').text(sentenceLengthVar);
